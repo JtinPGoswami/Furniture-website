@@ -26,7 +26,6 @@ export const AuthProvider = ({ children }) => {
     toast.info("Log out Successfull");
     setIsLogedIn(false);
     removeLocalStorage("LogedinUser");
-    console.log(getLocalStorage("LogedinUser"));
   };
   
 
@@ -40,7 +39,6 @@ const Loggedin = getLocalStorage("LogedinUser") || {};
   };
 
   const userIndex =(ToMatchUsername)=>{
-    console.log(ToMatchUsername,users);
     
     const idx=users.findIndex((user) => user.username === ToMatchUsername);
     return idx

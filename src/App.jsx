@@ -15,9 +15,11 @@ import Thank_You from "./Pages/Thank_You";
 import Login from "./Pages/Login";
 import SignUp from "./Pages/Signup";
 import PrivateRoute from "./Pages/PrivateRoute";
-import { AuthProvider } from "./context/AuthContext";
 import PrivateRouteLogOut from "./Pages/PrivateRouteLogOut";
 import UserDetails from "./Pages/UserDetails";
+import { AuthProvider } from "./Context/AuthContext";
+
+
 
 
 const App = () => {

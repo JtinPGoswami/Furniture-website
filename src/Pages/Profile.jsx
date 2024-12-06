@@ -12,7 +12,6 @@ if(e.target.innerText=="Go to Cart"){
   }
 
 const userDetails=  getLocalStorage("LogedinUser")
-console.log(userDetails);
 
 const imgsrc=userDetails.imgsrc;
 

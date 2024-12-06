@@ -55,7 +55,6 @@ const handleSubmit = (e) => {
   e.preventDefault();
 
 const users=usersData()
-  console.log(users);
   
   const tmpUser = getLocalStorage("tmp") || null;
 
@@ -65,7 +64,6 @@ const users=usersData()
   }
 
   const useridx=userIndex(tmpUser)
-console.log(useridx,userIndex ,tmpUser);
 
   if (useridx === -1) {
     console.error("User not found");
